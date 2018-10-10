@@ -1,0 +1,88 @@
+[
+    {
+        "name": "RestPHP/Framework",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/restphp/framework.git",
+            "reference": "42790282434441f3b243957046a665965392b857"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/restphp/framework/zipball/42790282434441f3b243957046a665965392b857",
+            "reference": "42790282434441f3b243957046a665965392b857",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.1.3"
+        },
+        "time": "2018-10-10T11:54:44+00:00",
+        "type": "project",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "RestPHP\\": "src"
+            },
+            "files": [
+                "src/functions.php"
+            ]
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "RestPHP Framework",
+                "email": "contakt@restphp.org"
+            }
+        ],
+        "support": {
+            "source": "https://github.com/restphp/framework/tree/master",
+            "issues": "https://github.com/restphp/framework/issues"
+        }
+    },
+    {
+        "name": "RestPHP/VORM",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/restphp/vorm.git",
+            "reference": "14d53c32488419721d79aa96bfcf9249e8c0f8fa"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/restphp/vorm/zipball/14d53c32488419721d79aa96bfcf9249e8c0f8fa",
+            "reference": "14d53c32488419721d79aa96bfcf9249e8c0f8fa",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.1.3"
+        },
+        "time": "2018-10-10T11:54:03+00:00",
+        "type": "project",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "VORM\\": "src"
+            },
+            "files": [
+                "src/functions.php"
+            ]
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Virtual ORM",
+                "email": "contakt@restphp.org"
+            }
+        ],
+        "support": {
+            "source": "https://github.com/restphp/vorm/tree/master",
+            "issues": "https://github.com/restphp/vorm/issues"
+        }
+    }
+]
