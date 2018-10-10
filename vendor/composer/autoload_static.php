@@ -12,12 +12,9 @@ class ComposerStaticInit97dadc49a6b1ea13f4f443baaff20502
     );
 
     public static $prefixLengthsPsr4 = array (
-        'V' => 
-        array (
-            'VORM\\' => 5,
-        ),
         'R' => 
         array (
+            'RestPHP\\VORM\\' => 13,
             'RestPHP\\' => 8,
         ),
         'A' => 
@@ -27,7 +24,7 @@ class ComposerStaticInit97dadc49a6b1ea13f4f443baaff20502
     );
 
     public static $prefixDirsPsr4 = array (
-        'VORM\\' => 
+        'RestPHP\\VORM\\' => 
         array (
             0 => __DIR__ . '/..' . '/RestPHP/VORM/src',
         ),

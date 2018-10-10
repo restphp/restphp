@@ -6,7 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'VORM\\' => array($vendorDir . '/RestPHP/VORM/src'),
+    'RestPHP\\VORM\\' => array($vendorDir . '/RestPHP/VORM/src'),
     'RestPHP\\' => array($vendorDir . '/RestPHP/Framework/src'),
     'App\\Tests\\' => array($baseDir . '/Tests'),
 );
